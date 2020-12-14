@@ -167,19 +167,18 @@
   opacity: 1;
   text-align: left;
 }
-.search-img {
-  width: 38.67975997924805px;
-  height: 34.08695602416992px;
-  background: url("../images/hse-logo.png");
+.search_img {
+  width: 100%;
+  height: 100%;
+  background: url("../images/search-img.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 94.86956787109375px;
-  left: 834.07568359375px;
+  top: 95px;
+  left: 834px;
   overflow: hidden;
-  border-radius: 0px
 }
 .Emblema1 {
   width: 30px;
@@ -255,7 +254,7 @@
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
+  position: relative;
   top: 349px;
   left: 729px;
   overflow: hidden;
