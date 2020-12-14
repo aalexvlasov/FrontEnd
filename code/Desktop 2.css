@@ -3,49 +3,49 @@
   padding: 0 !important;
   margin: 0 !important;
 }
-.Background {
+.main {
   width: 100%;
-  height: 708px;
+  height: 100%;
   background: rgba(255,255,255,1);
   opacity: 1;
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 0px;
   overflow: hidden;
 }
-.Menu {
+.menu-column {
   width: 109px;
-  height: 708px;
+  height: 100%;
   background: rgba(172,172,172,1);
   opacity: 1;
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 0px;
   overflow: hidden;
 }
-.Menu_Element {
+.menu-element {
   width: 33px;
   height: 31px;
-  background: url("../images/v7_36.png");
+  background: url("../images/v53_110.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 116px;
+  top: 129px;
   left: 38px;
   overflow: hidden;
 }
-.a {
+.menu-row-1 {
   width: 33px;
   height: 4px;
   background: rgba(255,255,255,1);
   opacity: 1;
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 0px;
 }
-.b {
+.menu-row-2 {
   width: 33px;
   height: 4px;
   background: rgba(255,255,255,1);
@@ -54,7 +54,7 @@
   top: 13px;
   left: 0px;
 }
-.c {
+.menu-row-3 {
   width: 33px;
   height: 4px;
   background: rgba(255,255,255,1);
@@ -63,20 +63,20 @@
   top: 26px;
   left: 0px;
 }
-.HSE {
-  width: 95px;
+.hse-logo {
+  width: 100px;
   height: 100px;
-  background: url("../images/v7_3.png");
+  background: url("../images/hse-logo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 8px;
-  left: 7px;
+  top: 5px;
+  left: 5px;
   overflow: hidden;
 }
-.v1 {
+.database-1-inf {
   width: 195px;
   color: url("../images/v7_52.png");
   position: absolute;
@@ -112,23 +112,8 @@
   opacity: 1;
   text-align: left;
 }
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
-.Search {
-  width: 651px;
+.search-bar {
+  width: 660px;
   height: 82px;
   background: url("../images/v53_47.png");
   background-repeat: no-repeat;
@@ -140,8 +125,8 @@
   left: 227px;
   overflow: hidden;
 }
-.v7_41 {
-  width: 651px;
+.search-bar-shadow {
+  width: 660px;
   height: 82px;
   background: url("../images/v7_41.png");
   background-repeat: no-repeat;
@@ -153,8 +138,8 @@
   left: 0px;
   overflow: hidden;
 }
-.v7_42 {
-  width: 651px;
+.search-bar-border {
+  width: 652px;
   height: 42px;
   background: rgba(255,255,255,1);
   opacity: 1;
@@ -169,7 +154,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-.Rashir_poisk {
+.advanced-search {
   width: 157px;
   color: rgba(0,90,171,1);
   position: absolute;
@@ -182,15 +167,19 @@
   opacity: 1;
   text-align: left;
 }
-.Emblema {
-  width: 38px;
-  height: 34px;
-  background: rgba(255,255,255,1);
+.search-img {
+  width: 38.67975997924805px;
+  height: 34.08695602416992px;
+  background: url("../images/hse-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 4px;
-  left: 608px;
+  top: 94.86956787109375px;
+  left: 834.07568359375px;
   overflow: hidden;
+  border-radius: 0px
 }
 .Emblema1 {
   width: 30px;
@@ -222,7 +211,7 @@
   opacity: 1;
   text-align: left;
 }
-.Sravnenie1 {
+.comparison-1 {
   width: 78px;
   height: 22px;
   background: url("../images/v53_83.png");
@@ -235,7 +224,7 @@
   left: 731px;
   overflow: hidden;
 }
-.v53_71 {
+.comparison-1-rectangle {
   width: 78px;
   height: 22px;
   background: rgba(255,255,255,1);
@@ -246,7 +235,7 @@
   border: 0.5px solid rgba(0,0,0,1);
   overflow: hidden;
 }
-.v53_72 {
+.comparison-1-text {
   width: 46px;
   color: rgba(221,32,37,1);
   position: absolute;
@@ -258,6 +247,20 @@
   opacity: 1;
   text-align: left;
 }
+.comparison-1-pdf {
+  width: 80px;
+  height: 24px;
+  background: url("../images/pdf-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 349px;
+  left: 729px;
+  overflow: hidden;
+}
+
 .Sravnenie2 {
   width: 80px;
   height: 24px;
@@ -271,6 +274,7 @@
   left: 729px;
   overflow: hidden;
 }
+
 .v53_85 {
   width: 80px;
   height: 24px;
