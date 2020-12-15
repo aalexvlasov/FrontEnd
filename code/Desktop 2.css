@@ -76,42 +76,381 @@
   left: 5px;
   overflow: hidden;
 }
+
+.databases-title {
+  width: 257px;
+  color: rgba(0,67,126,1);
+  position: absolute;
+  top: 32px;
+  left: 454px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Nunito;
+  font-weight: SemiBold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
 .database-1-inf {
-  width: 195px;
-  color: url("../images/v7_52.png");
+  width: 1950px;
+  height: 100px;
   position: absolute;
-  top: 201px;
+  top: 200px;
   left: 178px;
   opacity: 1;
+}
+.database-1-name{
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.database-1-resource{
+  top: 38px;
+  left: 0px;
+  position: absolute;
+}
+.database-1-abstract{
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.database-1-comparison {
+  width: 78px;
+  height: 22px;
+  background: url("../images/v53_83.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 550px;
+  overflow: hidden;
+}
+.database-1-comparison-rectangle {
+  width: 78px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 0.5px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.database-1-comparison-text {
+  width: 46px;
+  color: rgba(221,32,37,1);
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  font-family: Nunito;
+  font-weight: SemiBold;
+  font-size: 9px;
+  opacity: 1;
   text-align: left;
 }
-.v2 {
-  width: 195px;
-  color: url("../images/v53_44.png");
+.database-pdf-1 {
+  width: 46px;
+  height: 48px;
+  background: url("../images/pdf-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
   position: absolute;
-  top: 443px;
+  left: 650px;
+  overflow: hidden;
+}
+
+.database-2-inf {
+  width: 1950px;
+  height: 100px;
+  position: absolute;
+  top: 300px;
   left: 178px;
   opacity: 1;
-  text-align: left;
 }
-.v3 {
-  width: 195px;
-  color: url("../images/v53_45.png");
+.database-2-name{
+  top: 0px;
+  left: 0px;
   position: absolute;
-  top: 568px;
-  left: 179px;
+}
+.database-2-resource{
+  top: 38px;
+  left: 0px;
+  position: absolute;
+}
+.database-2-abstract{
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.database-2-comparison {
+  width: 78px;
+  height: 22px;
+  background: url("../images/v53_83.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 550px;
+  overflow: hidden;
+}
+.database-2-comparison-rectangle {
+  width: 78px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 0.5px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.database-2-comparison-text {
+  width: 46px;
+  color: rgba(221,32,37,1);
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  font-family: Nunito;
+  font-weight: SemiBold;
+  font-size: 9px;
   opacity: 1;
   text-align: left;
 }
-.v4 {
-  width: 195px;
-  color: url("../images/v53_46.png");
+.database-pdf-2 {
+  width: 46px;
+  height: 48px;
+  background: url("../images/pdf-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
   position: absolute;
-  top: 318px;
+  left: 650px;
+  overflow: hidden;
+}
+
+.database-3-inf {
+  width: 1950px;
+  height: 100px;
+  position: absolute;
+  top: 400px;
   left: 178px;
   opacity: 1;
+}
+.database-3-name{
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.database-3-resource{
+  top: 38px;
+  left: 0px;
+  position: absolute;
+}
+.database-3-abstract{
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.database-3-comparison {
+  width: 78px;
+  height: 22px;
+  background: url("../images/v53_83.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 550px;
+  overflow: hidden;
+}
+.database-3-comparison-rectangle {
+  width: 78px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 0.5px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.database-3-comparison-text {
+  width: 46px;
+  color: rgba(221,32,37,1);
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  font-family: Nunito;
+  font-weight: SemiBold;
+  font-size: 9px;
+  opacity: 1;
   text-align: left;
 }
+.database-pdf-3 {
+  width: 46px;
+  height: 48px;
+  background: url("../images/pdf-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  left: 650px;
+  overflow: hidden;
+}
+
+.database-4-inf {
+  width: 1950px;
+  height: 100px;
+  position: absolute;
+  top: 500px;
+  left: 178px;
+  opacity: 1;
+}
+.database-4-name{
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.database-4-resource{
+  top: 38px;
+  left: 0px;
+  position: absolute;
+}
+.database-4-abstract{
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.database-4-comparison {
+  width: 78px;
+  height: 22px;
+  background: url("../images/v53_83.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 550px;
+  overflow: hidden;
+}
+.database-4-comparison-rectangle {
+  width: 78px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 0.5px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.database-4-comparison-text {
+  width: 46px;
+  color: rgba(221,32,37,1);
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  font-family: Nunito;
+  font-weight: SemiBold;
+  font-size: 9px;
+  opacity: 1;
+  text-align: left;
+}
+.database-pdf-4 {
+  width: 46px;
+  height: 48px;
+  background: url("../images/pdf-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  left: 650px;
+  overflow: hidden;
+}
+
+.database-5-inf {
+  width: 1950px;
+  height: 100px;
+  position: absolute;
+  top: 600px;
+  left: 178px;
+  opacity: 1;
+}
+.database-5-name{
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.database-5-resource{
+  top: 38px;
+  left: 0px;
+  position: absolute;
+}
+.database-5-abstract{
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.database-5-comparison {
+  width: 78px;
+  height: 22px;
+  background: url("../images/v53_83.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 550px;
+  overflow: hidden;
+}
+.database-5-comparison-rectangle {
+  width: 78px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 0.5px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.database-5-comparison-text {
+  width: 46px;
+  color: rgba(221,32,37,1);
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  font-family: Nunito;
+  font-weight: SemiBold;
+  font-size: 9px;
+  opacity: 1;
+  text-align: left;
+}
+.database-pdf-5 {
+  width: 46px;
+  height: 48px;
+  background: url("../images/pdf-logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  left: 650px;
+  overflow: hidden;
+}
+
 .search-bar {
   width: 660px;
   height: 82px;
@@ -168,37 +507,19 @@
   text-align: left;
 }
 .search_img {
-  width: 100%;
-  height: 100%;
+  width: 39px;
+  height: 35px;
   background: url("../images/search-img.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 95px;
-  left: 834px;
+  top: 5px;
+  left: 605px;
   overflow: hidden;
 }
-.Emblema1 {
-  width: 30px;
-  height: 26px;
-  background: rgba(196,196,196,1);
-  opacity: 1;
-  position: absolute;
-  top: 2px;
-  left: 4px;
-}
-.Emblema2 {
-  width: 11px;
-  height: 5px;
-  background: rgba(196,196,196,1);
-  opacity: 1;
-  position: absolute;
-  top: 8px;
-  left: 12px;
-}
-.Poisk {
+.search-query {
   width: 87px;
   color: rgba(179,176,176,1);
   position: absolute;
@@ -207,201 +528,6 @@
   font-family: Nunito;
   font-weight: SemiBold;
   font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.comparison-1 {
-  width: 78px;
-  height: 22px;
-  background: url("../images/v53_83.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 229px;
-  left: 731px;
-  overflow: hidden;
-}
-.comparison-1-rectangle {
-  width: 78px;
-  height: 22px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border: 0.5px solid rgba(0,0,0,1);
-  overflow: hidden;
-}
-.comparison-1-text {
-  width: 46px;
-  color: rgba(221,32,37,1);
-  position: absolute;
-  top: 5px;
-  left: 18px;
-  font-family: Nunito;
-  font-weight: SemiBold;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.comparison-1-pdf {
-  width: 80px;
-  height: 24px;
-  background: url("../images/pdf-logo.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 349px;
-  left: 729px;
-  overflow: hidden;
-}
-
-.Sravnenie2 {
-  width: 80px;
-  height: 24px;
-  background: url("../images/v53_84.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 349px;
-  left: 729px;
-  overflow: hidden;
-}
-
-.v53_85 {
-  width: 80px;
-  height: 24px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border: 0.5px solid rgba(0,0,0,1);
-  overflow: hidden;
-}
-.v53_86 {
-  width: 48px;
-  color: rgba(221,32,37,1);
-  position: absolute;
-  top: 6px;
-  left: 18px;
-  font-family: Nunito;
-  font-weight: SemiBold;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.v74_156 {
-  width: 80px;
-  height: 24px;
-  background: url("../images/v74_156.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v74_157 {
-  width: 80px;
-  height: 24px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border: 0.5px solid rgba(0,0,0,1);
-  overflow: hidden;
-}
-.v74_158 {
-  width: 48px;
-  color: rgba(221,32,37,1);
-  position: absolute;
-  top: 6px;
-  left: 18px;
-  font-family: Nunito;
-  font-weight: SemiBold;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.Sravnenie3 {
-  width: 80px;
-  height: 24px;
-  background: url("../images/v53_87.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 472px;
-  left: 729px;
-  overflow: hidden;
-}
-.v53_88 {
-  width: 80px;
-  height: 24px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border: 0.5px solid rgba(0,0,0,1);
-  overflow: hidden;
-}
-.v53_89 {
-  width: 48px;
-  color: rgba(221,32,37,1);
-  position: absolute;
-  top: 6px;
-  left: 18px;
-  font-family: Nunito;
-  font-weight: SemiBold;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.Sravnenie4 {
-  width: 80px;
-  height: 24px;
-  background: url("../images/v53_90.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 583px;
-  left: 729px;
-  overflow: hidden;
-}
-.v53_91 {
-  width: 80px;
-  height: 24px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 0.5px solid rgba(0,0,0,1);
-  overflow: hidden;
-}
-.v53_92 {
-  width: 48px;
-  color: rgba(221,32,37,1);
-  position: absolute;
-  top: 6px;
-  left: 18px;
-  font-family: Nunito;
-  font-weight: SemiBold;
-  font-size: 9px;
   opacity: 1;
   text-align: left;
 }
